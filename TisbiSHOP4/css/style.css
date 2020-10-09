@@ -1,0 +1,275 @@
+
+.main-screen{
+  background: url(../img/headerFon.png) no-repeat ; 
+   height:110vh ;
+   min-width: 100vh;
+   position: relative;
+   padding:48px 100px 10px 100px;
+}
+
+.main-screen .headerwrapper{
+	width: 100%;
+	margin:0 auto;
+}
+
+.headerL1 {
+    background: rgba(198,14,14,1);
+    height: 60px;
+    max-width: 960px !important;
+    position: relative;
+}
+.headerL1 .logowrapper{
+position: absolute;
+left: 0px;
+top:0px;
+padding: 6px 20px 8px 70px; 
+}
+.headerL1 .logowrapper .logo{
+	max-width: 100%;
+    height: auto;
+}
+
+.headerL1 p{
+	position:absolute;
+	top:20px;
+	right: 55px;
+	color:white;
+	font: bold 18pt "PTSans" condensed ;
+}
+
+.headerL1 .user{
+	position:absolute;
+	right:14px;
+	top:12px;
+}
+.headerL2{
+	height:57px;
+	background: rgba(255,255,255,1);
+    max-width: 960px !important;
+	position: relative;
+}
+.headerL2  .merchwrapper {
+	position: absolute;
+left: 0px;
+top:0px;
+padding: 13px 20px 13px 70px; 
+}
+.headerL2  .merchwrapper .merch{
+	max-width: 100%;
+    height: auto;
+
+}
+.headerL2 .cart{
+	position:absolute;
+	top:10px;
+	right: 170px;
+	}
+ .headerL2 p:nth-child(3) {
+	position:absolute;
+	top:10px;
+	right: 40px;
+	color:rgb(0,0,0);
+	font:condensed bold 18px "PTSans"   ;
+}
+.headerL2 p:nth-child(4) {
+	position:absolute;
+	top:30px;
+	right: 40px;
+	color:rgb(0,0,0);
+	font:condensed bold 18px "PTSans"  ;
+}
+.main-screen .carouselWrapper{
+	max-width:960px !important;
+	margin-top:22px !important;
+	padding: 0px !important;
+}
+
+/*          Контент             */
+ .contentwrapper{
+
+
+	min-width: 100vh;
+   padding:48px 100px 10px 100px;
+	position: relative;
+   
+   
+}
+ .contentwrapper .content{
+	position: relative;
+	 margin:0 auto;	
+    flex: 0 1 960px ;	
+    overflow: hidden;
+	max-width:  960px;
+	
+	height: 960px;
+	border:2px solid rgb(206,206,206);;
+	
+}
+.content .search input{
+	position: absolute;
+	left:28px;
+	top:20px;
+	border:2px solid rgb(206,206,206);
+}
+.content .search a img {
+width: 21px;
+height: 20px;
+position: absolute;
+top:5px;
+left:3px;
+}
+.content .search a{
+	position: absolute;
+	display: block;
+	width:27px;
+	height: 30px;
+	left:199.6px;
+	top:20px;
+	background: rgb(242,241,241);
+	border-top:2px solid rgb(206,206,206);
+	border-right: 2px solid rgb(206,206,206);
+	border-bottom:2px solid rgb(206,206,206);
+}
+
+.content .search{
+ flex: 0 1 245px ;
+ max-width: 245px;
+height: 65px;
+ position: absolute;
+left:0px;top:0px;right: 0;
+	border-right:2px solid rgb(210,210,210);
+	border-bottom:2px solid rgb(210,210,210);
+}
+.content .menu{
+	background:rgb(242,241,241);
+	position: absolute;
+	flex: 0 1 245px ;
+	left:0px;right: 0;
+	top:65px;
+	max-width: 245px;
+	height: 895px;
+	border-right:2px solid rgb(210,210,210);
+	border-bottom:1px solid rgb(210,210,210);	
+}
+.content .menu p{
+	font: 900 15pt "Muriad Pro";
+	text-transform: uppercase;
+	padding:15px 0 20px 60px;
+}
+
+.menu ul li{
+	list-style-type: none;
+	border-bottom: 2px rgb(206,206,206) solid;
+	max-width:185px;
+}
+
+.menu ul li:hover{
+background:white;
+}
+.menu ul li a{
+	color:rgb(88,88,88);
+	text-decoration: none;
+	position: relative;
+	left: 13px;
+	font-size:  14pt;
+
+}
+.menu ul li:hover    a{
+	color:rgb(192,10,29);
+   font-size:  21px;
+}
+
+
+.pages {
+	position: absolute;
+	bottom:0px;
+	left:245px;
+	height:45px;
+width: 715px;
+
+
+	max-width:  715px;
+	
+	
+}
+.pages ul{
+	display: flex;
+	height: 100%;
+	align-items:  center;
+	justify-content:space-around;
+	list-style-type:none;
+}
+.products{
+	position: absolute;
+	top: 0px;
+	left: 245px;
+	right: 0;
+	height:915px;
+
+   flex: 0 1 715px ;	
+	max-width:  715px;
+
+	
+}
+.products .row{
+	position: relative;
+	margin:0px;
+	
+	max-width: inherit;
+}
+.products .row .col-4{
+	border:1px rgb(206,206,206) solid;
+	height:305px;
+}
+.products .row .col-4 a {
+     width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  text-align: center;
+  line-height: 300px;
+text-decoration: none;
+}
+
+.products .row .col-4 a::after{
+	content: "";
+	 position: absolute;
+	width: 100px;
+	height:100px;
+	top:26%;
+	left:calc(42% - 100px);
+	transition: 1.4s all;
+	color:white;
+	
+
+}
+.products .row .col-4 a:hover::after{
+	content: "";
+	 position: absolute;
+	width: 100px;
+	height:100px;
+	top:36%;
+	left:calc(72% - 100px);
+	border-radius: 50%;
+	background:rgb(192,10,29) ;
+	z-index: -1;
+
+}
+.products .row .col-4 a:hover{
+	z-index: 1000;
+	color:white;
+}
+.products .row .col-4:hover{
+	border:2px rgb(192,10,29) solid;
+
+}
+.footer{
+	background: url(../img/footerFon.png) no-repeat;
+     bottom:0px;
+     margin-top:-100px;
+     min-height: 100vh;
+   min-width: 100vh;
+   position: relative;
+}
+
