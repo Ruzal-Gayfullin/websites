@@ -1,0 +1,127 @@
+@font-face {
+	font-family:"PT Sans";
+	src: url(../fonts/2221.ttf);
+}
+.main-screen{
+	height: 512px ;
+	background-image: url(../img/ff2.png);
+	}
+.contentwrapper{
+	margin-top: -200px !important;
+}
+.contentwrapper .regwrapper{
+	position: absolute;
+	height: 460px;
+	max-width:  715px;
+	right: 0; top:0; left:245px;
+	border-bottom:2px solid rgb(206,206,206);
+}
+.regwrapper .head{
+	position: absolute;
+	right: 0; top:0; left:0px;
+	height: 65px;
+	border-bottom:2px solid rgb(206,206,206);
+	
+}
+.regwrapper .head p{
+	font: 600 24px "PTSans"  ;
+	margin: 3% 30px;
+}
+.auth-block{
+	width: 50%;
+	height: 395px;
+	position: absolute;
+	top:65px;left:0;bottom:0;
+	border-right:2px solid rgb(206,206,206);
+	padding: 23px 70px 220px 70px;
+
+}
+
+.auth-block .form-group p{
+     font: bold 20px "PTSans"; 
+	 padding-bottom: 0px;
+
+}
+.auth-block .form-group input{
+	margin-bottom: 15px;
+	height: 25px;
+	border:2px solid rgb(206,206,206);
+	border-radius: 0px;
+}
+.auth-block .form-group button{
+	padding: 5px 12px;
+	color:#fff;
+	background: rgb(232,6,6);
+	border:none;
+	box-shadow: 0px 0px 5px grey;
+	
+	position: absolute;
+	right: 70px;
+}
+.reg-block{
+	width: 50%;
+	height: 395px;
+	position: absolute;
+	top:65px;right:0;bottom:0;
+	padding: 23px 70px 0px 70px;
+	
+}
+
+.reg-block .form-group p{
+	font: bold 20px "PTSans"  ;
+	position: absolute;
+	top:23px;
+}
+.reg-block .form-group input{
+	margin-bottom: 15px;
+	height: 25px;
+	border:2px solid rgb(206,206,206);
+	border-radius: 0px;
+}
+.reg-block .form-group :nth-child(2) {
+	margin-top: 40px;
+}
+.reg-block .form-group button{
+	padding: 5px 12px;
+	color:#fff;
+	background: rgb(232,6,6);
+	border:none;
+	box-shadow: 0px 0px 5px grey;
+	position: absolute;
+	right: 70px;
+}
+
+.reg-block .form-group span{
+	color:red;
+ position: absolute;
+ font-size: 25px;
+ 
+}
+.reg-block .form-group span:nth-child(3) {
+ right:55px;
+ top:63px;
+}
+.reg-block .form-group span:nth-child(5) {
+ right:55px;
+ top:103px;
+}
+.reg-block .form-group span:nth-child(7) {
+ right:55px;
+ top:143px;
+}
+.reg-block .form-group span:nth-child(9) {
+ right:55px;
+ top:183px;
+}
+.reg-block .form-group span:nth-child(11) {
+ right:55px;
+ top:223px;
+}
+.reg-block .form-group span:nth-child(13) {
+ right:55px;
+ top:263px;
+}
+.reg-block .form-group span:nth-child(15) {
+ right:55px;
+ top:303px;
+}
