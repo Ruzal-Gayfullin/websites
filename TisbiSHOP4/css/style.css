@@ -28,7 +28,7 @@ padding: 6px 20px 8px 70px;
 	max-width: 100%;
     height: auto;
 }
-.headerL1 a{
+.headerwrapper .headerL1 a{
 height: 100%;
 background-color: rgb(159,1,1);
 width: 170px;
@@ -65,7 +65,7 @@ padding: 13px 20px 13px 70px;
     height: auto;
 
 }
-.headerL2 .cart{
+headerwrapper .headerL2 .cart{
 	position:absolute;
 	top:10px;
 	right: 170px;
